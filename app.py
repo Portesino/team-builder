@@ -113,7 +113,7 @@ def ensure_team_names_count(n: int):
 
 # --- UI ---
 st.title("⚽ Team Generator")
-st.caption("Name + Stärke (1,2,3) erfassen → Teams sind höchstens um 1 unterschiedlich groß.")
+st.caption("Name + Stärke (1,2,3) erfassen")
 
 with st.form("add_player_form", clear_on_submit=True):
     c1, c2, c3 = st.columns([2,1,1])
