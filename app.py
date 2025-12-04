@@ -112,7 +112,7 @@ def ensure_team_names_count(n: int):
     st.session_state.team_names = names
 
 # --- UI ---
-st.title("⚽ Zufallsgenerator")
+st.title("⚽ Marlene")
 st.caption("Name + Stärke (1,2,3) erfassen → Teams sind höchstens um 1 unterschiedlich groß.")
 
 with st.form("add_player_form", clear_on_submit=True):
