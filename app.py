@@ -112,7 +112,7 @@ def ensure_team_names_count(n: int):
     st.session_state.team_names = names
 
 # --- UI ---
-st.title("⚽ Team Generator")
+st.title("⚽ Team Generator Fussball")
 st.caption("Name + Stärke (1,2,3) erfassen")
 
 with st.form("add_player_form", clear_on_submit=True):
